@@ -1,0 +1,107 @@
+/* ==============================
+     brekpoint 575px
+=============================== */
+@media(min-width: 575px){
+    .static_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+}
+
+/* ==============================
+     brekpoint 767px
+=============================== */
+@media(min-width: 767px){
+    .header_nav{
+        display: block;
+    }
+    .mobile_nav{
+        display: none;
+    }
+    .bennar-title {
+        font-size: 48px;
+    }
+    .about-title {
+        font-size: 36px;
+    }
+    .about_item_inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .product_wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .gallary_first_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .gallary_second_wrapper {
+        grid-template-columns: 2fr 3fr;
+        grid-gap: 0 30px;
+        margin-top: 30px;
+    }
+    .static_wrapper{
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0px 30px;
+    }
+    .about-title {
+        font-size: 30px;
+
+    }
+}
+
+/* ==============================
+     brekpoint 991px
+=============================== */
+@media(min-width: 991px){
+    .bennar_wrapper {
+        flex-direction: row;
+    }
+    .bennar_image {
+        width: 50%;
+    }
+    .bennar_text {
+        width: 50%;
+        margin-left: auto;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .btn {
+         margin-bottom: 0px;
+    }
+    .about_section_wrapper {
+        flex-direction: row;
+    }
+    .about_section_text {
+        width: 50%;
+        padding: 0px 50px;
+        margin: 0px;
+    }
+    .about_item_inner {
+        width: 50%;
+    }
+    .gallary_first_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0 60px;
+        align-items: flex-end;
+    }
+    .gallary_header {
+        max-width: 670px;
+        width: 100%;
+        padding-bottom: 80px;
+    }
+  
+}
+
+/* ==============================
+     brekpoint 1140px
+=============================== */
+@media(min-width: 1140px){
+    .product_wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        padding: 0 100px;
+    }
+}
